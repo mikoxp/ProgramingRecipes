@@ -1,0 +1,23 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbit
+    password: kr0licheck
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9091
+      group-id: group_id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: localhost:9091
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+rabbit:
+  queue: my_queue
+  topic: exchange
+kafka:
+  topic: my-topic
+
