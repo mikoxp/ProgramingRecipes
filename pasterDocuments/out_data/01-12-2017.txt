@@ -1,0 +1,12 @@
+------------
+D:\project\files\data\c.txt
+01-12-2017 09:20:58
+------------
+ccc
+ccc
+------------
+D:\project\files\data\d.txt
+01-12-2017 09:21:27
+------------
+dddd
+dddd
