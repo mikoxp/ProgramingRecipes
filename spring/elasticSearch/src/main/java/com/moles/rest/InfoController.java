@@ -1,7 +1,7 @@
 package com.moles.rest;
 
-import com.moles.elastic.Info;
-import com.moles.elastic.InfoService;
+import com.moles.elastic.info.Info;
+import com.moles.elastic.info.InfoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

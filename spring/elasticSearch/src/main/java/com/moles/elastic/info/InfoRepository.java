@@ -1,4 +1,4 @@
-package com.moles.elastic;
+package com.moles.elastic.info;
 
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
