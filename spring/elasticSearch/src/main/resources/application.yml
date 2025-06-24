@@ -1,3 +1,9 @@
 spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      client:
+        reactive: false
   elasticsearch:
     uris: http://localhost:9200

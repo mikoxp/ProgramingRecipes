@@ -21,6 +21,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
 	implementation 'org.mapstruct:mapstruct:1.5.5.Final'
+	implementation 'co.elastic.clients:elasticsearch-java:8.13.4'
 
 
 

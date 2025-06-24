@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
@@ -19,6 +20,9 @@ public class InfoService {
     private final InfoRepository repository;
 
     public Info add(Info info) {
+        if(info.getId()==null){
+            info.setId(UUID.randomUUID().toString());
+        }
         return repository.save(info);
     }
 
